@@ -735,7 +735,6 @@
             100% { opacity: 0; transform: translateX(-50%) translateY(-20px) scale(0.95); }
         }
 
-        /* ===== 背景音乐按钮 ===== */
         .music-control {
             position: fixed;
             bottom: 20px;
@@ -824,10 +823,9 @@
 </head>
 <body>
 
-    <!-- ===== 背景音乐按钮 ===== -->
     <div class="music-control" id="musicControl">
         <audio id="bgMusic" loop volume="0.3">
-            <source src="dxy.mp3" type="audio/mpeg">
+            <source src="dxy.MP3" type="audio/mpeg">
         </audio>
         <button id="musicBtn">🔊</button>
         <span class="status" id="musicStatus">点击播放</span>
@@ -1008,53 +1006,53 @@
         }
 
         // ================================================================
-        //  普通省份数据
+        //  普通省份数据（所有省份图标统一为⭐，分组图标已按要求修改）
         // ================================================================
 
         const PROVINCE_DATA = {
             "广西壮族自治区": {
-                icon: "🌴",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "广西", image: "images/Kilig.jpg", text: "很开心能认识你这位朋友，愿生活予你钝感，对锋利世界保持恰好的天真。天天开心！每天睡个好觉！",
                         id: "Kilig." }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "广西", image: "images/Kilig.jpg", text: "认识大家真的好幸福！喜欢大家细腻的想法和闪亮的心，大家天天开心！事事顺利！熠熠向前，事事登高。",
                         id: "Kilig." }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "广西", image: "images/Kilig.jpg", text: "你们咋都那么有才！每一位都很善良温柔，很高兴认识你们！愿你们一切尽意，百事从欢。",
                         id: "Kilig." }]
                 }]
             },
             "北京市": {
-                icon: "🏛️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "北京市", image: "images/zhimahaitai.jpg", text: "希望你天天开心一切顺利每天睡个好觉",
                         id: "芝麻海苔" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "北京市", image: "images/zhimahaitai.jpg", text: "认识大家超级开心幸福☺️",
                         id: "芝麻海苔" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "北京市", image: "images/zhimahaitai.jpg", text: "每个人都非常厉害！！",
                         id: "芝麻海苔" }]
                 }]
             },
             "安徽省": {
-                icon: "🏯",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "安徽", image: "images/Larsfan.jpg", text: "很高兴在短短300多万天的人生里遇见你，认识你，像是阳光让每天的生活都充满了动力和活力！",
                             id: "Lars.凡" },
@@ -1067,7 +1065,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "安徽", image: "images/Larsfan.jpg", text: "何其有幸能够认识这么多志同道合的娅粉，虽然我们身处世界各地，却可以成为无话不谈的好朋友！",
                             id: "Lars.凡" },
@@ -1080,7 +1078,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "安徽", image: "images/Larsfan.jpg", text: "仅从大帅笔下了解到的你们就觉得是一群很好的人，无论是谈吐还是性格都是很礼貌很温柔，希望大家可以天天开心，每天都幸福！",
                             id: "Lars.凡" },
@@ -1094,29 +1092,29 @@
                 }]
             },
             "湖北省": {
-                icon: "🌉",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "湖北", image: "images/wwwww.jpg", text: "像风遇见云，像夜遇见星，遇见你是我今年最幸运的事，lly希望你一直自由而快乐！",
                         id: "wwwww" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "湖北", image: "images/wwwww.jpg", text: "祝我的朋友们：东南西北皆顺路，春夏秋冬都平安！",
                         id: "wwwww" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "湖北", image: "images/wwwww.jpg", text: "希望西西里里的大家生活顺遂，幸福快乐，所行皆坦途，所遇皆温柔。",
                         id: "wwwww" }]
                 }]
             },
             "山东省": {
-                icon: "⛰️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "山东", image: "images/guozhijun.jpg", text: "鲤鱼，你只管大胆做独一无二的自己，前路繁花似锦，我会一直一直陪着你。",
                             id: "朕乃一果汁君" },
@@ -1131,7 +1129,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "山东", image: "images/guozhijun.jpg", text: "很庆幸在911星球遇见一群很美好的女孩子，能和大家相识，我很开心，愿屏幕前的每一个你，万事顺心。",
                             id: "朕乃一果汁君" },
@@ -1146,7 +1144,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "山东", image: "images/guozhijun.jpg", text: "愿lly身边的家人与挚友岁岁无忧，日日欢喜，平安顺遂。",
                             id: "朕乃一果汁君" },
@@ -1162,10 +1160,10 @@
                 }]
             },
             "湖南省": {
-                icon: "🌶️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "常德", image: "images/nuomiji.jpg", text: "风很温柔，花很浪漫，你很特别！春祺夏安，秋绥冬禧。我们会永远在你身后～要开心哦～",
                             id: "糯米叽🍀" },
@@ -1176,7 +1174,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "常德", image: "images/nuomiji.jpg", text: "跨越人海，恰好与你们相逢，山南海北。有幸同频",
                             id: "糯米叽🍀" },
@@ -1187,7 +1185,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "常德", image: "images/nuomiji.jpg", text: "所爱皆平安，所念皆温柔。祝莉莉娅有趣的家人朋友遂己愿，常喜乐～",
                             id: "糯米叽🍀" },
@@ -1199,10 +1197,10 @@
                 }]
             },
             "广东省": {
-                icon: "🌺",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "广州市", image: "images/xueli.jpg", text: "万事顺遂，小人退散，天天开心！吃嘛嘛香，永不失眠！你超级超级厉害！！！娅粉会一直一直陪着你的",
                             id: "冰糖雪梨" },
@@ -1225,7 +1223,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "广州市", image: "images/xueli.jpg", text: "祝娅粉事业学业都顺利！万事顺遂，天天开心！暴富暴美！",
                             id: "冰糖雪梨" },
@@ -1248,7 +1246,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "广州市", image: "images/xueli.jpg", text: "希望lly的家人朋友们身体健康，万事如意，学业事业都顺顺利利！",
                             id: "冰糖雪梨" },
@@ -1272,29 +1270,29 @@
                 }]
             },
             "马来西亚": {
-                icon: "🦋",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "马来西亚", image: "images/sling12.jpg", text: "谢谢你一直在！但是想休息了随时都可以最重要是你的开心幸福❤️也把我的好睡眠分你！",
                         id: "" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "马来西亚", image: "images/sling12.jpg", text: "通过小鹿有机会和大家一起开心聊天分享玩闹是特别的缘份让来自不同地方的我们相遇❤️",
                         id: "" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "马来西亚", image: "images/sling12.jpg", text: "谢谢你们包括小鹿分享生活趣事 回评聊天唱歌给我们听！真的很喜欢，珍惜也很幸福❤️",
                         id: "" }]
                 }]
             },
             "河南省": {
-                icon: "🏺",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "郑州", image: "images/star.jpg", text: "老大你是最厉害的，请保持自信，愿你一切尽意，百事从欢，你是自由的",
                             id: "star_" },
@@ -1309,7 +1307,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "郑州", image: "images/star.jpg", text: "很高兴认识你们呀，祝大家天天开心，万事顺意",
                             id: "star_" },
@@ -1324,7 +1322,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "郑州", image: "images/star.jpg", text: "很高心通过lly认识你们，祝你们今天愉快，你们明天的愉快我留着明天再祝，下次也会跟你们说，多来找我们玩呀！",
                             id: "star_" },
@@ -1340,10 +1338,10 @@
                 }]
             },
             "江西省": {
-                icon: "🏞️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "上饶", image: "images/zzzzzzz.jpg", text: "很高兴认识你呀谢谢你带来了欢乐和力量，祝你拥有一个好的睡眠少些内耗和烦恼",
                             id: "Zzzzzzz." },
@@ -1354,7 +1352,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "上饶", image: "images/zzzzzzz.jpg", text: "有幸加入911星球遇见你们每个人都很美好顶顶好祝你们得偿所愿，幸福顺遂",
                             id: "Zzzzzzz." },
@@ -1365,7 +1363,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "上饶", image: "images/zzzzzzz.jpg", text: "每个人都要健康快乐平安如意 生活工作顺利好运常在，幸福如呼吸般简单",
                             id: "Zzzzzzz." },
@@ -1377,29 +1375,29 @@
                 }]
             },
             "黑龙江省": {
-                icon: "❄️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "黑龙江", image: "images/cheng.jpg", text: "你像从天而降的礼物 给我带来数不尽的快乐和幸福 愿你每天开心快乐永远热烈且自由",
                         id: "丞" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "黑龙江", image: "images/cheng.jpg", text: "与你们相识何其有幸 缘分注定让我们相聚 愿我们大家友谊长存在幸福的每一刻",
                         id: "丞" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "黑龙江", image: "images/cheng.jpg", text: "平安健康 事事顺意 因为lly认识大家是一件特别幸运的事情愿你们永远幸福常伴",
                         id: "丞" }]
                 }]
             },
             "上海市": {
-                icon: "🌃",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "上海", image: "images/fengkaobiguo.jpg", text: "祝大帅新的一岁有爱有梦，有忙有闲，好好睡觉，天天开心",
                             id: "逢考必过" },
@@ -1408,7 +1406,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "上海", image: "images/fengkaobiguo.jpg", text: "幸得相逢，日日皆暖",
                             id: "逢考必过" },
@@ -1417,7 +1415,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "上海", image: "images/fengkaobiguo.jpg", text: "在千里之外的你们，愿你我皆安暖",
                             id: "逢考必过" },
@@ -1427,10 +1425,10 @@
                 }]
             },
             "江苏省": {
-                icon: "🌊",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "苏州市", image: "images/luqiqi.jpg", text: "愿LLY一切尽意，百事从欢，天天开心，夜夜好眠，径行直遂，青云万里。",
                             id: "麓七七" },
@@ -1447,7 +1445,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "苏州市", image: "images/luqiqi.jpg", text: "在数据洪流里相遇，是赛博世界里最浪漫的意外，愿911星球居民平安喜乐，万事顺意。",
                             id: "麓七七" },
@@ -1464,7 +1462,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "苏州市", image: "images/luqiqi.jpg", text: "祝有趣又有才的LLY家人朋友，聚时如火，散时如星，春祺夏安，秋绥冬禧。",
                             id: "麓七七" },
@@ -1482,10 +1480,10 @@
                 }]
             },
             "浙江省": {
-                icon: "🎋",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "宁波", image: "images/huanxiangyu.jpg", text: "莉莉娅你的好我已无法用言语形容，感谢缘分让我们相识！愿你日日好梦，天天开心～",
                             id: "幻想屿" },
@@ -1500,7 +1498,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "宁波", image: "images/huanxiangyu.jpg", text: "遇到你们超级幸运！希望大家永远被爱包围，没有烦恼～",
                             id: "幻想屿" },
@@ -1515,7 +1513,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "宁波", image: "images/huanxiangyu.jpg", text: "莉莉娅的家人朋友们，愿你们天天开心，平安顺遂，所愿皆成真！",
                             id: "幻想屿" },
@@ -1531,10 +1529,10 @@
                 }]
             },
             "福建省": {
-                icon: "🌊",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [
                         { name: "厦门", image: "images/tangzixinglu.jpg", text: "希望你可以越来好越好，好好吃饭，按时休息，保持健康，内心和平冷静，坦然拒绝不内疚。我们一直都在呀，不管开心还是难过我们都很乐意做你的听众呀！",
                             id: "糖渍星鹿" },
@@ -1545,7 +1543,7 @@
                     ]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [
                         { name: "厦门", image: "images/tangzixinglu.jpg", text: "生命中有的人像礼物一般的存在，是一想到就觉得，心底忽而亮堂，是觉得对方的身体里，有蓬勃的惊喜充盈，亲爱的娅粉们，而你们于我而言，便是这样的存在。",
                             id: "糖渍星鹿" },
@@ -1556,7 +1554,7 @@
                     ]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [
                         { name: "厦门", image: "images/tangzixinglu.jpg", text: "祝LLY的家人朋友们所求皆如愿，所行化坦途，多喜乐，长安宁。",
                             id: "糖渍星鹿" },
@@ -1568,96 +1566,96 @@
                 }]
             },
             "四川省": {
-                icon: "🐼",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "四川", image: "images/juanjuanai.jpg", text: "昭昭如愿 岁岁安澜。祝lly天天开心，百福具臻，睡眠质量up！！",
                         id: "卷卷爱吃面" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "四川", image: "images/juanjuanai.jpg", text: "最好的关系，有幸遇见，恰好合拍，祝大家生活愉快",
                         id: "卷卷爱吃面" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "四川", image: "images/juanjuanai.jpg", text: "平安喜乐，吃好喝好，每天都睡个好觉。纵使远隔千里，在看不到的时光里也能幸福美满。",
                         id: "卷卷爱吃面" }]
                 }]
             },
             "河北省": {
-                icon: "🏛️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "河北", image: "images/shuibubao.jpg", text: "天天开心 自由自在 睡个好觉",
                         id: "睡不饱抱帅哥" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "河北", image: "images/shuibubao.jpg", text: "生活顺利 天天开心 很幸运认识了你们 ",
                         id: "睡不饱抱帅哥" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "河北", image: "images/shuibubao.jpg", text: "平安顺遂 万事如意 永远幸福 ",
                         id: "睡不饱抱帅哥" }]
                 }]
             },
             "陕西省": {
-                icon: "🏮",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "西安市", image: "images/taoliyanhuo.jpg", text: "谢谢你的存在！谢谢你的坚持！谢谢你的出现！你真的宇宙超级无敌非常特别好！！！",
                         id: "逃离烟火" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "西安市", image: "images/taoliyanhuo.jpg", text: "希望大家不忘初心～感谢相遇！一起在911星球开心幸福地走下去吧！",
                         id: "逃离烟火" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "西安市", image: "images/taoliyanhuo.jpg", text: "大家都要健康平安～天天开心！陪这个超好的lly岁岁年年～碎碎念念！",
                         id: "逃离烟火" }]
                 }]
             },
             "甘肃省": {
-                icon: "🏜️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "甘肃", image: "images/bianchengjiangshi.jpg", text: "莉莉娅，何其有幸能够遇见你，祝你，永远热烈，永远尽兴！！！",
                         id: "变成僵尸蹦着追西西里里" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "甘肃", image: "images/bianchengjiangshi.jpg", text: "很高兴在五月加入911星球，认识大家的每一天，我都很开心，希望我们就这样长长久久的走下去吧！",
                         id: "变成僵尸蹦着追西西里里" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "甘肃", image: "images/bianchengjiangshi.jpg", text: "愿你们亲情温暖，友情长存，爱意年年，一生皆圆满。",
                         id: "变成僵尸蹦着追西西里里" }]
                 }]
             },
             "辽宁省": {
-                icon: "⚙️",
+                icon: "⭐",
                 groups: [{
                     name: "对LLY",
-                    icon: "💛",
+                    icon: "🧡",
                     cities: [{ name: "辽宁", image: "images/angel.jpg", text: "感谢相遇 我会一直在 开开心做你自己就好了小鹿🖤。",
                         id: "Angel" }]
                 }, {
                     name: "对娅粉",
-                    icon: "💜",
+                    icon: "💛",
                     cities: [{ name: "辽宁", image: "images/angel.jpg", text: "愿大家万事顺遂 健康无忧 感谢遇见🤍",
                         id: "Angel" }]
                 }, {
                     name: "对LLY的家人朋友",
-                    icon: "🧡",
+                    icon: "💜",
                     cities: [{ name: "辽宁", image: "images/angel.jpg", text: "健康 平安 无忧 一直幸福下去吧🩶",
                         id: "Angel" }]
                 }]
@@ -1752,7 +1750,6 @@
         const modalImage = document.getElementById('modalImage');
         const modalClose = document.getElementById('modalClose');
 
-        // ===== 背景音乐控制 =====
         const music = document.getElementById('bgMusic');
         const musicBtn = document.getElementById('musicBtn');
         const musicStatus = document.getElementById('musicStatus');
@@ -1804,7 +1801,6 @@
             setTimeout(() => t.remove(), 2800);
         }
 
-        // ===== 渲染省份列表 =====
         function renderProvinces() {
             let html = '';
 
@@ -1832,7 +1828,7 @@
             const provinceNames = Object.keys(PROVINCE_DATA);
             provinceNames.forEach(name => {
                 const groups = PROVINCE_DATA[name].groups || [];
-                const icon = PROVINCE_DATA[name].icon || '📍';
+                const icon = PROVINCE_DATA[name].icon || '⭐';
                 let totalCities = 0;
                 groups.forEach(g => { totalCities += g.cities.length; });
                 html += `
@@ -1863,7 +1859,6 @@
             });
         }
 
-        // ===== LLY视图 =====
         function openLLYView() {
             cityTitle.innerHTML = `<span>⭐</span> LLY`;
             cityBadge.textContent = `${LLY_DATA.length} 个投稿`;
@@ -1980,7 +1975,6 @@
             switchView('viewDetail');
         }
 
-        // ===== 普通省份视图 =====
         function openGroupView(provinceName) {
             const province = PROVINCE_DATA[provinceName];
             if (!province || !province.groups || !province.groups.length) {
@@ -2142,7 +2136,6 @@
             switchView('viewDetail');
         }
 
-        // ===== 画廊视图 =====
         function openGalleryView() {
             galleryBadge.textContent = `${GALLERY_IMAGES.length} 张图片`;
             currentGalleryFilter = 'all';
@@ -2239,7 +2232,6 @@
             }
         });
 
-        // ===== 筛选器事件 =====
         filterBtns.forEach(btn => {
             btn.addEventListener('click', function() {
                 const filter = this.dataset.filter;
@@ -2271,7 +2263,6 @@
             });
         });
 
-        // ===== 搜索事件 =====
         searchInput.addEventListener('input', function() {
             if (viewCity.classList.contains('active')) {
                 if (currentProvince && currentGroupCities.length) {
@@ -2319,7 +2310,6 @@
             }
         });
 
-        // ===== 返回事件 =====
         backToProvince.addEventListener('click', () => switchView('viewProvince'));
         backToProvinceFromGallery.addEventListener('click', () => switchView('viewProvince'));
 
@@ -2365,7 +2355,6 @@
             }
         });
 
-        // ===== 启动 =====
         renderProvinces();
         showToast('🌍 911星球 · 探索城市故事');
         console.log('📦 数据加载完成');
